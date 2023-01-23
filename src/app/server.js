@@ -82,7 +82,7 @@ const bindMiddleware = () => {
         })
     );
     APPLICATION.use(cors({
-        origin: 'http://localhost:3001'
+        origin: 'https://main--thepeanutgallery.netlify.app/'
     }));
 
     console.log(`${APP_NAME} - successfully bound middleware...`)
